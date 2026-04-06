@@ -11,7 +11,6 @@ import {
 } from 'react-icons/si';
 import { TbFileSpreadsheet } from 'react-icons/tb';
 import { VscCode } from 'react-icons/vsc';
-<<<<<<< HEAD
 import { FiMonitor } from 'react-icons/fi';
 import {
   containerVariants,
