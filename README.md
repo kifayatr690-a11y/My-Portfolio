@@ -3,7 +3,7 @@ Absolutely! Since your project is a **portfolio website**, here’s a profession
 ---
 
 ```markdown
-# Usman Ali Portfolio
+# Kifayat Ullah Portfolio
 
 Welcome to my personal portfolio website! This website showcases my skills, projects, and experience as a Front-End Developer.  
 

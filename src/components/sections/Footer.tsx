@@ -1,10 +1,12 @@
 import { motion } from 'framer-motion';
+import { FaWhatsapp } from 'react-icons/fa';
 import { FiGithub, FiLinkedin, FiMail, FiHeart } from 'react-icons/fi';
 
 const socialLinks = [
-  { icon: FiGithub, href: 'https://github.com/usmanali330', label: 'GitHub' },
-  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/usman-ali-655600344/', label: 'LinkedIn' },
-  { icon: FiMail, href: 'mailto:usmanalishah5040@gmail.com', label: 'Email' },
+  { icon: FiGithub, href: 'https://github.com/kifayatr690-a11y', label: 'GitHub' },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/feed/', label: 'LinkedIn' },
+  { icon: FiMail, href: 'mailto:kifayatr690@gmail.com', label: 'Email' },
+  { icon: FaWhatsapp, href: 'https://wa.me/923225587280', label: 'WhatsApp' },
 ];
 
 const Footer = () => {
@@ -25,7 +27,7 @@ const Footer = () => {
               UA
             </a>
             <p className="text-sm text-muted-foreground flex items-center gap-1 justify-center md:justify-start">
-              © {currentYear} Usman Ali. Built with{' '}
+              © {currentYear} Kifayat Ullah. Built with{' '}
               <motion.span
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ duration: 1, repeat: Infinity }}

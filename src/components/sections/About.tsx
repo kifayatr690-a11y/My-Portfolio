@@ -4,11 +4,11 @@ import { FiUser, FiMapPin, FiPhone, FiMail, FiGlobe, FiCalendar, FiHeart, FiBrie
 import profileImage from '@/assets/profile-2.jpg';
 
 const personalInfo = [
-  { icon: FiUser, label: 'Name', value: 'Usman Ali' },
-  { icon: FiCalendar, label: 'Date of Birth', value: '5 April 2003' },
+  { icon: FiUser, label: 'Name', value: 'Kifayat Ullah' },
+  { icon: FiCalendar, label: 'Date of Birth', value: '21 March 2006' },
   { icon: FiMapPin, label: 'Location', value: 'Sardheri, Charsadda, KPK' },
-  { icon: FiPhone, label: 'Phone', value: '0370-5040330' },
-  { icon: FiMail, label: 'Email', value: 'usmanalishah\n5040@gmail.com' },
+  { icon: FiPhone, label: 'Phone', value: '0322-5587280' },
+  { icon: FiMail, label: 'Email', value: 'kifayatr690@gmail.com' },
   { icon: FiGlobe, label: 'Languages', value: 'Urdu, Pashto, English' },
   { icon: FiHeart, label: 'Interests', value: 'MERN Stack, UI/UX' },
   { icon: FiBriefcase, label: 'Experience', value: 'MERN Stack Developer' },
@@ -59,7 +59,7 @@ const About = () => {
               >
                 <img 
                   src={profileImage} 
-                  alt="Usman Ali" 
+                  alt="Kifayat Ullah img" 
                   className="w-full h-full rounded-xl object-cover object-top"
                 />
               </motion.div>

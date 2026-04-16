@@ -5,10 +5,10 @@ import { FaWhatsapp } from 'react-icons/fa';
 import profileImage from '@/assets/profile-1.jpg';
 
 const socialLinks = [
-  { icon: FiGithub, href: 'https://github.com/usmanali330', label: 'GitHub' },
-  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/usman-ali-655600344/', label: 'LinkedIn' },
-  { icon: FiMail, href: 'mailto:usmanalishah5040@gmail.com', label: 'Email' },
-  { icon: FaWhatsapp, href: 'https://wa.me/923705040330', label: 'WhatsApp' },
+  { icon: FiGithub, href: 'https://github.com/kifayatr690-a11y', label: 'GitHub' },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/feed/', label: 'LinkedIn' },
+  { icon: FiMail, href: 'mailto:kifayatr690@gmail.com', label: 'Email' },
+  { icon: FaWhatsapp, href: 'https://wa.me/923225587280', label: 'WhatsApp' },
 ];
 
 const Hero = () => {
@@ -38,7 +38,7 @@ const Hero = () => {
               transition={{ delay: 0.3 }}
               className="heading-primary mb-4"
             >
-              <span className="gradient-text text-shadow-glow">Usman Ali</span>
+              <span className="gradient-text text-shadow-glow">Kifayat Ullah</span>
             </motion.h1>
             
             <motion.div
@@ -89,7 +89,7 @@ const Hero = () => {
                 Get In Touch
               </motion.a>
               <motion.a
-                href="https://github.com/usmanali330"
+                href="https://github.com/kifayatr690-a11y"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -166,7 +166,7 @@ const Hero = () => {
               >
                 <img 
                   src={profileImage} 
-                  alt="Usman Ali" 
+                  alt="Kifayat Ullah" 
                   className="w-full h-full rounded-full object-cover"
                 />
               </motion.div>

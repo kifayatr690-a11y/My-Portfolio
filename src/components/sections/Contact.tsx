@@ -5,9 +5,9 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const contactInfo = [
   { icon: FiMapPin, label: 'Location', value: 'Sardheri, Charsadda, KPK', href: 'https://www.google.com/maps/place/Sardheri,+Charsadda,+Khyber+Pakhtunkhwa,+Pakistan/@34.1569,71.7428,15z' },
-  { icon: FiPhone, label: 'Phone', value: '+92 370 5040330', href: 'tel:+923705040330' },
-  { icon: FaWhatsapp, label: 'WhatsApp', value: '+92 370 5040330', href: 'https://wa.me/923705040330' },
-  { icon: FiMail, label: 'Email', value: 'usmanalishah5040@gmail.com', href: 'mailto:usmanalishah5040@gmail.com' },
+  { icon: FiPhone, label: 'Phone', value: '+92 322 558 7280', href: 'tel:+923225587280' },
+  { icon: FaWhatsapp, label: 'WhatsApp', value: '+92 322 558 7280', href: 'https://wa.me/923225587280' },
+  { icon: FiMail, label: 'Email', value: 'kifayatr690@gmail.com', href: 'mailto:kifayatr690@gmail.com' },
 ];
 
 const Contact = () => {
